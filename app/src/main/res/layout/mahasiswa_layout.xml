@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:id="@+id/llyItemMahasiswa">
+    <ImageView
+        android:id="@+id/imvMahasiswa"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/user3"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txvNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:text="Nama Mahasiswa"/>
+        <TextView
+            android:id="@+id/txvProdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:text="Program Studi"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imvDelete"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/bin"
+        android:paddingLeft="20dp"
+        />
+</LinearLayout>

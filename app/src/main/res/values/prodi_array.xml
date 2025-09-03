@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prodi_array">
+        <item>Sistem Informasi</item>
+        <item>Informatika</item>
+        <item>Hukum</item>
+        <item>Manajemen Perhotelan</item>
+        <item>Akuntansi</item>
+        <item>Manajemen</item>
+    </string-array>
+</resources>
