@@ -164,8 +164,6 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-
-
     edtName = findViewById(R.id.edtName);
         btnRegister = findViewById(R.id.btnRegister);
         btnRegister.setOnClickListener(new View.OnClickListener() {
